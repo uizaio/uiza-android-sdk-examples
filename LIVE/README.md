@@ -1,27 +1,27 @@
 # uiza-android-sdk-examples
 uiza-android-sdk-examples
 
-First, you need edit config in file app/src/main/java/com/tungtt/sdk5/App.java
+_ First, you need edit config in file app/src/main/java/com/tungtt/sdk5/App.java
 
-# public class App extends MultiDexApplication {
-#    public static final String DF_DoMain_Api = "ap-southeast-1-api.uiza.co";
-#    public static final String DF_TOKEN = "YOUR_TOKEN_API";
-#   public static final String DF_AppId = "YOUR_APP_ID";
-#    public static String entityIdDefaultLIVE_TRANSCODE = "YOUR_ENTITY_TRANSCODE";
-#
-#    @Override
-#    public void onCreate() {
-#        super.onCreate();
-#        Constants.setDebugMode(false);
-#        UZUtil.initWorkspace(this,4, DF_DoMain_Api, DF_TOKEN, DF_AppId);
-#    }
-# }
+<!-- public class App extends MultiDexApplication {
+    public static final String DF_DoMain_Api = "ap-southeast-1-api.uiza.co";
+    public static final String DF_TOKEN = "YOUR_TOKEN_API";
+   public static final String DF_AppId = "YOUR_APP_ID";
+   public static String entityIdDefaultLIVE_TRANSCODE = "YOUR_ENTITY_TRANSCODE";
 
-Second, register account follow the instructions: https://help.uiza.io/en/articles/2964404-register-account
+   @Override
+    public void onCreate() {
+        super.onCreate();
+        Constants.setDebugMode(false);
+        UZUtil.initWorkspace(this,4, DF_DoMain_Api, DF_TOKEN, DF_AppId);
+    }
+} -->
 
-Next, Login dashboard https://help.uiza.io/en/articles/2997622-login-to-admin-dashboard and generate "YOUR_TOKEN_API" https://docs.uiza.io/v4/#get-api-key.
+_ Second, register account follow the instructions: https://help.uiza.io/en/articles/2964404-register-account
 
-Third, Coppy "YOUR_APP_ID" follow https://help.uiza.io/en/articles/2997625-organization-application-id-appid.
+_ Next, Login dashboard https://help.uiza.io/en/articles/2997622-login-to-admin-dashboard and generate "YOUR_TOKEN_API" https://docs.uiza.io/v4/#get-api-key.
+
+_ Fourth, Coppy "YOUR_APP_ID" follow https://help.uiza.io/en/articles/2997625-organization-application-id-appid.
 
 Now, we have "Token_APi" and AppId to edit in config livestream.
 
